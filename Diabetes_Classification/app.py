@@ -127,7 +127,7 @@ def user_input_features():
 
 # Streamlit app title
 st.markdown('<p class="header-style">🩺 Diabetes Prediction App</p>', unsafe_allow_html=True)
-st.markdown('<p class="big-font">Enter the required details in the sidebar and get the prediction result.</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Enter the required details in the sidebar and get the classification result.</p>', unsafe_allow_html=True)
 
 # Get user input and perform feature engineering
 input_df = user_input_features()
