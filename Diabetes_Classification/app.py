@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import RobustScaler
 
 # Load the pipeline
-with open("diabetes_pipeline.pkl", "rb") as model_file:
+with open("./Dibates_Classification/diabetes_pipeline.pkl", "rb") as model_file:
     pipeline = pickle.load(model_file)
 
 # Custom CSS for styling
